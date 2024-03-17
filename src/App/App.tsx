@@ -1,4 +1,5 @@
 import Login from '../Pages/Login/Login'
+import Registration from '../Pages/Registration/Registration'
 import styles from './App.module.scss'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <div>sfsdf</div>
       <div>sfsdf</div>
       <div>sfsdf</div>
-      <Login/>
+      <Registration/>
     </main>
   )
 }

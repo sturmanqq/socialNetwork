@@ -1,0 +1,74 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    &Registration {
+        width: 30%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 30px;
+        border-radius: 20px;
+        background-color: #121B1D;
+        z-index: 1;
+        position: relative;
+
+        &Close {
+            font-size: 30px;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            cursor: pointer;
+            color: white;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 28px;
+            color: white;
+            font-weight: 700;
+            height: 10%;
+        }
+
+        form {
+            height: 65%;
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 100%;
+                padding: 16px 8px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                font-size: 16px;
+                border-radius: 20px;
+                outline: none;
+                background-color: #19282F;
+                border: none;
+                color: white;
+            }
+
+            button {
+                height: 15%;
+                align-self: center;
+                width: 70%;
+                font-size: 18px;
+                border-style: none;
+                background-color: #40b844;
+                color: white;
+                border-radius: 25px;
+                margin-top: 35px;
+            }
+        }
+    }
+}
