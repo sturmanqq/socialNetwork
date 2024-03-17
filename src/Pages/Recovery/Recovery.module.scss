@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
 
-    &Registration {
+    &Recovery {
         width: 30%;
         height: 75%;
         display: flex;
@@ -51,6 +51,7 @@
             height: 65%;
             display: flex;
             flex-direction: column;
+            justify-content: space-around;
 
             input {
                 width: 100%;

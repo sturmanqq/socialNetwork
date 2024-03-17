@@ -1,4 +1,4 @@
-import { IoIosClose } from 'react-icons/io'
+import { IoIosClose, IoMdArrowBack } from 'react-icons/io'
 import Overlay from '../../Componets/Overlay/Overlay'
 import styles from './Registration.module.scss'
 
@@ -8,6 +8,7 @@ const Registration = () => {
         <div className={styles.main}>
             <Overlay/>
             <div className={styles.mainRegistration}>
+                <IoMdArrowBack className={styles.mainRegistrationBack}/>
                 <IoIosClose className={styles.mainRegistrationClose}/>
                 <h1>Регистрация</h1>
                 <form action="">

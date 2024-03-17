@@ -1,4 +1,5 @@
 import Login from '../Pages/Login/Login'
+import Recovery from '../Pages/Recovery/Recovery'
 import Registration from '../Pages/Registration/Registration'
 import styles from './App.module.scss'
 
