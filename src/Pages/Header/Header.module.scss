@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 16px;
+
+    h1 {
+        font-size: 26px;
+        align-self: center;
+    }
+
+    input{
+        width: 30%;
+        padding: 16px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 16px;
+        border-radius: 20px;
+        outline: none;
+        background-color: #cecece;
+        border: none;
+        color: black;
+    }
+
+    &Login {
+        font-size: 22px;
+        align-self: center;
+        font-weight: 600;
+        color: white;
+        background-color: #40b844;
+        padding: 8px 16px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}

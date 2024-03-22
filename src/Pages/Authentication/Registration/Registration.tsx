@@ -1,5 +1,5 @@
 import { IoIosClose, IoMdArrowBack } from 'react-icons/io'
-import Overlay from '../../Componets/Overlay/Overlay'
+import Overlay from '../../../Componets/Overlay/Overlay'
 import styles from './Registration.module.scss'
 
 const Registration = () => {

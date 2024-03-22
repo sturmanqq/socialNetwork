@@ -1,4 +1,4 @@
-import Overlay from '../../Componets/Overlay/Overlay';
+import Overlay from '../../../Componets/Overlay/Overlay';
 import styles from './Login.module.scss'
 import { IoIosClose } from "react-icons/io";
 
